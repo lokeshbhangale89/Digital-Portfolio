@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <title>Main</title>
+</head>
+
+<body>
+    <section class="section1 ">
+        <!-- home screen -->
+        <!-- navbar -->
+
+        <header>
+            <nav class="navbar navbar-expand-lg bg-transparent">
+                <div class="container d-flex justify-content-between">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-outline-dark text-light" href="#" data-bs-toggle="modal"
+                                    data-bs-target="#aboutModal">About Me</a>
+                            </li>
+                        </ul>
+                        <a class=" text-light mx-auto btn btn-outline-dark" href="#">Lokesh Bhangale</a>
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="btn btn-contact btn btn-outline-dark text-light" data-bs-toggle="modal"
+                                    data-bs-target="#contactModal" href="#">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- Modal for about me-->
+            <div class="modal fade " id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered bg-dark">
+                    <div class="modal-content bg-dark text-light">
+                        <div class="modal-header bg-white">
+                            <h2 class="modal-title" id="aboutModalLabel">About Me</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="text-center">
+                                <img src="images/DSC_9195.JPG" style="max-height: 200px;" alt="John Doe">
+                                <h3 class="mt-3">Lokesh Bhangale</h3><br>
+                                <p>Hello, I am Lokesh Bhangale student at MIT Academy of Engineering, Alandi. I have
+                                    knowledge of various programming languages like Python, Java, and C++. Furthermore,
+                                    I am proficient in Web Development, AI-ML, DBMS, and Object-oriented programming and
+                                    have hands-on experience working on Django [Web Development] Framework. <br>
+                                    <br>
+                                    I have worked on Projects like Smart Event Management System with Artificial
+                                    Intelligence and Machine Learning that will help people to organize an event
+                                    remotely. Throughout my academic career, I have developed proven leadership,
+                                    programming, and management skills, that make me suitable for any organization <br>
+                                    <br><br>
+                                    I believe in delivering work that exceeds expectations and always strive to provide the best
+                        results for my clients.
+                                </p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- <img src="images/DSC_9195.JPG" alt="John Doe Signature" class="img-fluid"> -->
+                            <h4>Lokesh Bhangale</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Modal of contact card -->
+            <div class="modal fade " id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content bg-dark text-light">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="contactModalLabel">Lokesh Bhangale</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h6 class="card-subtitle mb-2 text-muted">PAT Intern, Cognizant</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Student, MIT Pune</h6>
+                            <br>
+                            <p class="card-text">
+                                Email: lokeshbhangale89@gmail.com<br>
+                                Phone: +91 9158920423 <br>
+                                Address: MTR Apartment, Hinjewadi, 411057
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarIcons"
+                        aria-controls="navbarIcons" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarIcons">
+                        <ul class="navbar-nav justify-content-between">
+                            <li class="nav-item">
+                                <a class="nav-link icons btn-lg" href="#"><i class="bi bi-instagram"
+                                        style="color: #E1306C;"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link icons btn-lg" href="#"><i class="bi bi-linkedin"
+                                        style="color: #0E76A8;"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link icons btn-lg" href="#"><i class="bi bi-github"
+                                        style="color: #333;"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link icons btn-lg" href="#"><i class="bi bi-envelope"
+                                        style="color: #0077B5;"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link icons btn-lg" href="#"><i class="bi bi-twitter"
+                                        style="color: #1DA1F2;"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- <div class="banner container mt-5">
+            <div class="row">
+                <div class="col-5">
+                    <img src="myimg1.png" alt="My Image" class="banner-img">
+                </div>
+                <div class="col-5">
+                    
+                </div>
+            </div>
+        </div> -->
+
+        <div class="banner container mt-5">
+            <div class="row">
+                <div class="col-sm-5 col-md-5 col-lg-5 col-xl-5 d-grid justify-content-center pt-5">
+                    <img src="images/myimg1.png" alt="My Image" class="banner-img img-fluid">
+                </div>
+                <div class=" mt-3 col-sm-7 col-md-7 col-lg-7 col-xl-7 d-grid justify-content-center">
+                    <h1 class="mt-5 mx-auto" id="typing-text" style="color: rgb(176, 176, 176);"></h1>
+                    <p style="color: rgb(176, 176, 176); font-size: 24px; text-align: center; margin-top: 10px; max-width: 70%; margin: 0 auto;">
+                        I am a Full stack web developer based in Hinjewadi Pune. I specialize in developing modern and dynamic
+                        web application using the latest web technologies.
+                        <br><br>
+                        
+                        <a href="path/to/resume.pdf" download>
+                            <button class="btn btn-dark mt-3">
+                              Download Resume
+                            </button>
+                          </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="container-fluid my-5">
+            <h4 class="text-center mb-4 bg-dark text-light p-3">Skills Learnt</h4>
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Programming Languages</h5>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Python</li>
+                      <li class="list-group-item">Java</li>
+                      <li class="list-group-item">C++</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Machine Learning</h5>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Data Analysis</li>
+                      <li class="list-group-item">Data Visualization</li>
+                      <li class="list-group-item">Model Training and Evaluation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Frameworks</h5>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Django</li>
+                      <li class="list-group-item">Rasa</li>
+                      <li class="list-group-item">MERN Stack</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+    </section>
+
+    <section class="m-auto pt-5 pb-5 bg-light border-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mb-5">Academic Experience</h2>
+                    <div class="job">
+                        <div class="job-title">Bachelor of Technology</div>
+                        <div class="company">MIT Academy of Engineering, Alandi</div>
+                        <div class="job-duration">August 2019 - Present</div>
+                        <div class="job-description">
+                            Pursuing B.Tech in ENTC with an 8.65 CGPA </div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title">Higher Secondary Certificate (Class12th) [PCM]</div>
+                        <div class="company">Moolji Jaitha College, Jalgaon</div>
+                        <div class="job-duration">August 2017 - April 2019</div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title">Secondary School Certificate (Class 10th)</div>
+                        <div class="company">R. R. Vidyalaya, Jalgaon</div>
+                        <!-- <div class="job-duration">August 2017 - April 2019</div> -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="mb-5">Professional Experience</h2>
+                    <div class="job">
+                        <div class="job-title">Programmer Analyst Trainee Intern</div>
+                        <div class="company">Cognizant Technology Solutions</div>
+                        <div class="job-duration">January 2023 - Present</div>
+                        <div class="job-description">
+                            Working as an intern and going through training on the
+                            MERN full Stack,<br> with a focus on the React service line
+                        </div>
+                    </div>
+                    <div class="job">
+                        <div class="job-title">Machine Learning Intern</div>
+                        <div class="company">VIEH Group</div>
+                        <div class="job-duration">June 2022 - July 2022</div>
+                        <div class="job-description">
+                            Worked on H&M Personalized Fashion
+                            Recommendation that was <br> developed by me after researching
+                            methods of recommending content.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-academics">
+        <div class="container mb-5" data-aos="fade-up">
+
+            <div class="section-title mt-5">
+                <h2>Skills</h2>
+            </div>
+
+            <div class="skills-content">
+                <div class="mb-4">
+                    <h4 class="skills-title mb-3 text-center">Programming Languages</h4>
+                    <div class="d-flex justify-content-center align-items-center flex-wrap aos-init aos-animate"
+                        data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                        <div class="text-center skill-item"><img src="images/python.png" alt=""></i>
+                            <h5>Python</h5>
+                        </div>
+                        <div class="text-center skill-item"><img src="images/cpp.png" alt=""></i>
+                            <h5>C++</h5>
+                        </div>
+                        <div class="text-center skill-item"><img src="images/javascript.png" alt="">
+                            <h5>JavaScript</h5>
+                        </div>
+                        <div class="text-center skill-item"><img src="images/html.png" alt="">
+                            <h5>HTML</h5>
+                        </div>
+                        <div class="text-center skill-item"><img src="images/css.png" alt="">
+                            <h5>CSS</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <h4 class="skills-title text-center mb-3">Technologies / Frameworks</h4>
+                    <div class="d-flex justify-content-center align-items-center flex-wrap aos-init aos-animate"
+                        data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                        <div class="text-center skill-item"><img src="images/django.png" alt=""></i>
+                            <h5>Django</h5>
+                        </div>
+                        <div class="text-center skill-item"><img src="images/googlecloud.png" alt=""></i>
+                            <h5>Cloud</h5>
+                        </div>
+                        <div class="text-center skill-item"><img src="images/react.png" alt="">
+                            <h5>React JS</h5>
+                        </div>
+                        <div class="text-center skill-item"><img src="images/tableu.png" alt="">
+                            <h5>Tableau</h5>
+                        </div>
+                        <div class="text-center skill-item"><img src="images/bootstrap.png" alt="">
+                            <h5>Bootstrap</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <h4 class="skills-title text-center mb-3">Databases</h4>
+                    <div class="d-flex justify-content-center align-items-center flex-wrap aos-init aos-animate"
+                        data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                        <div class="text-center skill-item">
+                            <div class="p-0" style="color:#46ccf4"><img src="images/dbms.png" alt=""></div></i>
+                            <h5>DBMS</h5>
+                        </div>
+                        <div class="text-center skill-item">
+                            <img src="images/sql.png" alt="">
+                            <h5>SQL</h5>
+                        </div>
+                        <div class="text-center skill-item"><img src="images/mongodb.png" alt=""></i>
+                            <h5>MongoDB</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <h3 class="skills-title text-center mb-3">Tools</h3>
+                    <div class="d-flex justify-content-center align-items-center flex-wrap aos-init aos-animate"
+                        data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+                        <div class="text-center skill-item"><img src="images/pycharm.png" alt="">
+                            <h5>Pycharm</h5>
+                        </div>
+                        <div class="text-center skill-item"><img src="images/github.png" alt="">
+                            <h5>Github</h5>
+                        </div>
+                        <div class="text-center skill-item"><img src="images/vscode.png" alt="">
+                            <h5>VS Code</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- projects -->
+    <section class="section3 projects-section">
+        <div class="pt-5">
+            <h3 class="text-center text-dark pb-4">Projects</h3>
+            <div class="container ">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="glass-card">
+                            <h4 class="text-dark pb-3">Smart Event Management Platform With AIML</h4>
+                            <p class="text-dark">Manifetsta an event Management Platform is a web development project
+                                with smart
+                                feature like recommendation system for online event management that offers all ser-
+                                vice providers in one location and performs the functions of an event manager.</p>
+                            <span class="tag">Associated With - MIT Academy of Engineering</span><br>
+                            <button type="button" class="btn btn-outline-dark mt-4" data-toggle="modal"
+                                data-target="#myModal1">Know More About Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Modal Content</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="pt-3">
+            <div class="container ">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="glass-card">
+                            <h4 class="text-dark pb-3">Voice Based Chatbot with AIML</h4>
+                            <p class="text-dark">Revolutionizing the way we interact with technology, I had the
+                                opportunity to work on a
+                                project that involved developing a chatbot and voice bot using the rasa framework. this
+                                bot is equipped with features such as autocorrection to improve speech quality and
+                                python libraries for voice recognition.</p>
+                            <span class="tag">Associated With - MIT Academy of Engineering</span><br>
+                            <button type="button" class="btn btn-outline-dark mt-4" data-toggle="modal"
+                                data-target="#myModal">Know More About Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Modal Content</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pt-3">
+            <div class="container ">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="glass-card">
+                            <h4 class="text-dark pb-3">H&M Personalized Fashion Recommendation System</h4>
+                            <p class="text-dark">I developed a recommendation engine using H&M fashion product dataset.
+                                I leveraged the
+                                Flask web framework to build an application that showcases the recommended items to
+                                users. Along the way, I learned different methods of recommending products for various
+                                use cases.</p>
+                            <span class="tag">Associated With - VIEH Group</span><br>
+                            <button type="button" class="btn btn-outline-dark mt-4" data-toggle="modal"
+                                data-target="#myModal">Know More About Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Modal Content</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Training & Certifications -->
+    <section class="section4 certificates bg-light pb-5" style="position: relative;">
+        <div class="container">
+            <h2 class="pb-5">Training & Certifications</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card color-border-top">
+                        <img src="images/az900.png" alt="Certificate 1">
+                        <h4>AZ-900: Microsoft Azure Fundamentals</h4>
+                        <p class="text-dark">Key Skills - Azure Architecture and Services,
+                            Azure Management, Cloud Concepts</p>
+                        <a href="#">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card color-border-top">
+                        <img src="images/zensar.jfif" alt="Certificate 2">
+                        <h4>Zensar ESD Training Program</h4>
+                        <p class="text-dark ">Key Skills - Python, DBMS, Java, Soft Skills</p><br>
+                        <a href="#">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card color-border-top">
+                        <img src="images/internshala.jfif" alt="Certificate 3">
+                        <h4>Web Development</h4>
+                        <p>Key Skills - HTML, CSS, Bootstrap, MySQL, Django</p><br>
+                        <a href="#">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card color-border-top">
+                        <img src="images/googlecloud.png" alt="Certificate 1">
+                        <h4>Google Cloud Career Practitioneer Program - GDSC</h4>
+                        <p class="text-dark">Key Skills - Google Cloud Virtual Machines and Networks, Storage, Develop
+                            and Deployment</p>
+                        <a href="#">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card color-border-top">
+                        <img src="images/udemy.png" alt="Certificate 2">
+                        <h4>MERN Stack Course 2023 - Udemy</h4>
+                        <p class="text-dark">Key Skills - MongoDB, Express, React, NodeJS, Javascript [ES6], Typescript,
+                            Agile</p>
+                        <a href="#" class="mt-4">View Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card color-border-top">
+                        <img src="images/internshala.jfif" alt="Certificate 3">
+                        <h4>Web Development</h4>
+                        <p>Key Skills - HTML, CSS, Bootstrap, MySQL, Django</p>
+                        <a href="#">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section5 bg-light">
+        <div class="container pt-5 mx-auto">
+            <h2 class="text-center mb-4 pt-5">Contact Form</h2>
+            <form class="form-style m-auto">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
+                        required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="feedback" class="form-label">Feedback</label>
+                    <select class="form-select" id="feedback" name="feedback" required>
+                        <option value="">-- Select Feedback Type --</option>
+                        <option value="Complaint">Complaint</option>
+                        <option value="Suggestion">Suggestion</option>
+                        <option value="Question">Question</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="comments" class="form-label">Comments</label>
+                    <textarea class="form-control" id="comments" name="comments" rows="5"
+                        placeholder="Enter your comments"></textarea>
+                </div>
+                <button type="submit"
+                    class="btn mt-5 btn-outline-dark w-25 mx-auto d-grid justify-content-center">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="section6">
+        <footer class="bg-dark text-white">
+            <div class="container d-grid justify-content-center py-5 text-center">
+                <div class="row">
+                    <div class="col-md-6 ms-auto">
+                        <h3>About Me</h3>
+                        <p>Hi there, I am Lokesh Bhangale and I am a Full stack web developer based in Hinjewadi Pune. I
+                            specialize developing beautiful and responsive web application using the latest web
+                            technologies.</p> <br>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="bi bi-github"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 me-auto">
+                        <h3>Contact Info</h3>
+                        <p><i class="bi bi-geo-alt-fill"></i> Hinjewadi, Pune 411057</p>
+                        <p><i class="bi bi-phone"></i> +91 9158920423</p>
+                        <p><i class="bi bi-envelope"></i> lokeshbhangale89@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-secondary text-center py-2">
+                <p class="mb-0">&copy; 2023 Lokesh Bhangale</p>
+            </div>
+        </footer>
+
+
+    </section>
+
+    <!-- jQuery and Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const text = "Hi, I am Lokesh Bhangale";
+        let index = 0;
+        const typingSpeed = 100; // in milliseconds
+
+        function type() {
+            if (index < text.length) {
+                document.getElementById("typing-text").innerHTML += text.charAt(index);
+                index++;
+                setTimeout(type, typingSpeed);
+            }
+        }
+
+        type();
+    </script>
+</body>
+
+</html>
